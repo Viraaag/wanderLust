@@ -498,8 +498,14 @@ body {
   font-size: var(--fs-5);
 }
 
+.destination-card .card-date {
+  color: var(--mikado-yellow);
+  font-family: var(--ff-comforter-brush);
+  font-size: var(--fs-6);
+}
+
 .destination-card .card-title {
-  color: var(--white-1);
+  color: var(--jet);
   font-family: var(--ff-abril-fatface);
 }
 

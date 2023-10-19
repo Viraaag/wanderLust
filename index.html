@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WanderLust - Explore the World</title>
+  <title>WanderWaves - Explore the World</title>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
     crossorigin="anonymous"></script>
@@ -41,7 +41,7 @@
     <div class="container">
 
       <a href="#">
-        <h1 class="logo">WanderLust</h1>
+        <h1 class="logo">WanderWaves</h1>
       </a>
       <button class="nav-toggle-btn" data-nav-toggle-btn aria-label="Toggle Menu">
         <ion-icon name="menu-outline" class="open"></ion-icon>
@@ -57,28 +57,29 @@
           </li>
 
           <li>
-            <a href="#" class="navbar-link">About Us</a>
+            <a href="#AboutUs" class="navbar-link">About Us</a>
           </li>
 
           <li>
-            <a href="#" class="navbar-link">Tours</a>
+            <a href="#Destinations" class="navbar-link">Destinations</a>
           </li>
 
           <li>
-            <a href="#" class="navbar-link">Destinations</a>
+            <a href="#Tours" class="navbar-link">Tours</a>
+          </li>
+
+
+          <li>
+            <a href="#Blog" class="navbar-link">Blog</a>
           </li>
 
           <li>
-            <a href="#" class="navbar-link">Blog</a>
-          </li>
-
-          <li>
-            <a href="#" class="navbar-link">Contact Us</a>
+            <a href="#ContactUs" class="navbar-link">Contact Us</a>
           </li>
 
         </ul>
 
-        <a href="#" class="btn btn-secondary">Booking Now</a>
+        <a href="#Tours" class="btn btn-secondary">Booking Now</a>
 
       </nav>
 
@@ -96,7 +97,7 @@
         - #HERO
       -->
 
-      <section class="section hero"
+      <section class="section hero" id="homePage"
         style="background-image: url('./assets/images/hero-bg-bottom.png') url('./assets/images/hero-bg-top.png')">
         <div class="container">
 
@@ -117,9 +118,9 @@
             </p>
 
             <div class="btn-group">
-              <a href="#" class="btn btn-primary">Contact Us</a>
+              <a href="#ContactUs" class="btn btn-primary">Contact Us</a>
 
-              <a href="#" class="btn btn-outline">Learn More</a>
+              <!-- <a href="#" class="btn btn-outline">Learn More</a> -->
             </div>
 
           </div>
@@ -133,274 +134,11 @@
       </section>
 
 
-
-
-
-      <!-- 
-        - #DESTINATION
-      -->
-
-      <section class="section destination">
-        <div class="container">
-
-          <p class="section-subtitle">Destinations</p>
-
-          <h2 class="h2 section-title">Choose Your Place</h2>
-
-          <ul class="destination-list">
-
-            <li class="w-50">
-              <a href="#" class="destination-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/destination-1.jpg" width="1140" height="1100" loading="lazy"
-                    alt="Malé, Maldives" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-                  <p class="card-subtitle">Malé</p>
-
-                  <h3 class="h3 card-title">Maldives</h3>
-                </div>
-
-              </a>
-            </li>
-
-            <li class="w-50">
-              <a href="#" class="destination-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/destination-2.jpg" width="1140" height="1100" loading="lazy"
-                    alt="Bangkok, Thailand" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-                  <p class="card-subtitle">Bangkok</p>
-
-                  <h3 class="h3 card-title">Thailand</h3>
-                </div>
-
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="destination-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/destination-3.jpg" width="1110" height="480" loading="lazy"
-                    alt="Kuala Lumpur, Malaysia" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-                  <p class="card-subtitle">Kuala Lumpur</p>
-
-                  <h3 class="h3 card-title">Malaysia</h3>
-                </div>
-
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="destination-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/destination-4.jpg" width="1110" height="480" loading="lazy"
-                    alt="Kathmandu, Nepal" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-                  <p class="card-subtitle">Kathmandu</p>
-
-                  <h3 class="h3 card-title">Nepal</h3>
-                </div>
-
-              </a>
-            </li>
-
-            <li>
-              <a href="#" class="destination-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/destination-5.jpg" width="1110" height="480" loading="lazy"
-                    alt="Jakarta, Indonesia" class="img-cover">
-                </figure>
-
-                <div class="card-content">
-                  <p class="card-subtitle">Jakarta</p>
-
-                  <h3 class="h3 card-title">Indonesia</h3>
-                </div>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
-
-
-
-
-
-      <!-- 
-        - #POPULAR
-      -->
-
-      <section class="section popular">
-        <div class="container">
-
-          <p class="section-subtitle">Featured Tours</p>
-
-          <h2 class="h2 section-title">Most Popular Tours</h2>
-
-          <ul class="popular-list">
-
-            <li>
-              <div class="popular-card">
-
-                <figure class="card-banner">
-                  <a href="#">
-                    <img src="./assets/images/popular-1.jpg" width="740" height="518" loading="lazy"
-                      alt="Kuala Lumpur, Malaysia" class="img-cover">
-                  </a>
-
-                  <span class="card-badge">
-                    <ion-icon name="time-outline"></ion-icon>
-
-                    <time datetime="P12D">12 Days</time>
-                  </span>
-                </figure>
-
-                <div class="card-content">
-
-                  <div class="card-wrapper">
-                    <div class="card-price">From 18000Rs
-                  
-                    </div>
-
-                    <div class="card-rating">
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star-outline"></ion-icon>
-
-                      <data value="2">(2)</data>
-                    </div>
-                  </div>
-
-                  <h3 class="card-title">
-                    <a href="#">A good traveler has no fixed plans and is not intent on arriving.</a>
-                  </h3>
-
-                  <address class="card-location">Kuala Lumpur, Malaysia</address>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="popular-card">
-
-                <figure class="card-banner">
-                  <a href="#">
-                    <img src="./assets/images/popular-2.jpg" width="740" height="518" loading="lazy"
-                      alt="Kuala Lumpur, Malaysia" class="img-cover">
-                  </a>
-
-                  <span class="card-badge">
-                    <ion-icon name="time-outline"></ion-icon>
-
-                    <time datetime="P12D">12 Days</time>
-                  </span>
-                </figure>
-
-                <div class="card-content">
-
-                  <div class="card-wrapper">
-                    <div class="card-price">From 12000Rs</div>
-
-                    <div class="card-rating">
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star-outline"></ion-icon>
-
-                      <data value="2">(2)</data>
-                    </div>
-                  </div>
-
-                  <h3 class="card-title">
-                    <a href="#">A good traveler has no fixed plans and is not intent on arriving.</a>
-                  </h3>
-
-                  <address class="card-location">Bali, Indonesia</address>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="popular-card">
-
-                <figure class="card-banner">
-                  <a href="#">
-                    <img src="./assets/images/popular-3.jpg" width="740" height="518" loading="lazy"
-                      alt="Bali , Indonesia" class="img-cover">
-                  </a>
-
-                  <span class="card-badge">
-                    <ion-icon name="time-outline"></ion-icon>
-
-                    <time datetime="P12D">12 Days</time>
-                  </span>
-                </figure>
-
-                <div class="card-content">
-
-                  <div class="card-wrapper">
-                    <div class="card-price">From 21000Rs </div>
-
-                    <div class="card-rating">
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star-outline"></ion-icon>
-
-                      <data value="2">(2)</data>
-                    </div>
-                  </div>
-
-                  <h3 class="card-title">
-                    <a href="#">A good traveler has no fixed plans and is not intent on arriving.</a>
-                  </h3>
-
-                  <address class="card-location">Maldives</address>
-
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </div>
-      </section>
-
-
-
-
-
       <!-- 
         - #ABOUT
       -->
 
-      <section class="section about">
+      <section class="section about" id="AboutUs">
         <div class="container">
 
           <div class="about-content">
@@ -467,7 +205,7 @@
 
             </ul>
 
-            <a href="#" class="btn btn-primary">Booking Now</a>
+            <a href="#Tours" class="btn btn-primary">Booking Now</a>
 
           </div>
 
@@ -481,12 +219,282 @@
 
 
 
+      <!-- 
+        - #DESTINATION
+      -->
+
+      <section class="section destination" id='Destinations'>
+        <div class="container">
+
+          <p class="section-subtitle">Destinations</p>
+
+          <h2 class="h2 section-title">Choose Your Place</h2>
+
+          <ul class="destination-list">
+
+            <li class="w-50">
+              <a href="/assets/pages/Maldives.html" target="_blank" class="destination-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/destination-1.jpg" width="1140" height="1100" loading="lazy"
+                    alt="Malé, Maldives" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <p class="card-subtitle">Malé</p>
+                  <h3 class="h3 card-title">Maldives</h3>
+                  <p class="card-date">20th oct 2024 - 28th oct 2024 </p>
+                </div>
+
+              </a>
+            </li>
+
+            <li class="w-50">
+              <a href="/assets/pages/Thailand.html" class="destination-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/destination-2.jpg" width="1140" height="1100" loading="lazy"
+                    alt="Bangkok, Thailand" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <p class="card-subtitle">Bangkok</p>
+
+                  <h3 class="h3 card-title">Thailand</h3>
+
+                  <p class="card-date">1st sept 2024 - 10th sept 2024 </p>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="/assets/pages/Malaysia.html" class="destination-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/destination-3.jpg" width="1110" height="480" loading="lazy"
+                    alt="Kuala Lumpur, Malaysia" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <p class="card-subtitle">Kuala Lumpur</p>
+
+                  <h3 class="h3 card-title">Malaysia</h3>
+
+                  <p class="card-date">15th March 2024 - 20th March 2024 </p>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="/assets/pages/Nepal.html" class="destination-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/destination-4.jpg" width="1110" height="480" loading="lazy"
+                    alt="Kathmandu, Nepal" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <p class="card-subtitle">Kathmandu</p>
+
+                  <h3 class="h3 card-title">Nepal</h3>
+                  <p class="card-date">15th Jan 2024 - 20th Jan 2024 </p>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="/assets/pages/Indonesia.html" class="destination-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/destination-5.jpg" width="1110" height="480" loading="lazy"
+                    alt="Jakarta, Indonesia" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <p class="card-subtitle">Jakarta</p>
+                  <h3 class="h3 card-title">Indonesia</h3>
+                  <p class="card-date">9th Feb 2024 - 14th Feb 2024 </p>
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #POPULAR
+      -->
+
+      <section class="section popular" id='Tours'>
+        <div class="container">
+
+          <p class="section-subtitle">Featured Tours</p>
+
+          <h2 class="h2 section-title">Most Popular Tours</h2>
+
+          <ul class="popular-list">
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-banner">
+                  <a href="/assets/pages/Malaysia.html">
+                    <img src="./assets/images/popular-1.jpg" width="740" height="518" loading="lazy"
+                      alt="Kuala Lumpur, Malaysia" class="img-cover">
+                  </a>
+
+                  <span class="card-badge">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="P12D">12 Days</time>
+                  </span>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-price">From 18000Rs
+
+                    </div>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+
+                      <data value="2">(2)</data>
+                    </div>
+                  </div>
+
+                  <h3 class="card-title">
+                    <a href="#">A good traveler has no fixed plans and is not intent on arriving.</a>
+                  </h3>
+
+                  <address class="card-location">Kuala Lumpur, Malaysia</address>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-banner">
+                  <a href="/assets/pages/Indonesia.html">
+                    <img src="./assets/images/popular-2.jpg" width="740" height="518" loading="lazy"
+                      alt="Kuala Lumpur, Malaysia" class="img-cover">
+                  </a>
+
+                  <span class="card-badge">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="P12D">12 Days</time>
+                  </span>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+                    <div class="card-price">From 12000Rs</div>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+
+                      <data value="2">(2)</data>
+                    </div>
+                  </div>
+
+                  <h3 class="card-title">
+                    <a href="#">A good traveler has no fixed plans and is not intent on arriving.</a>
+                  </h3>
+
+                  <address class="card-location">Bali, Indonesia</address>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-banner">
+                  <a href="/assets/pages/Maldives.html">
+                    <img src="./assets/images/popular-3.jpg" width="740" height="518" loading="lazy"
+                      alt="Bali , Indonesia" class="img-cover">
+                  </a>
+
+                  <span class="card-badge">
+                    <ion-icon name="time-outline"></ion-icon>
+
+                    <time datetime="P12D">12 Days</time>
+                  </span>
+                </figure>
+
+                <div class="card-content">
+                  <a href="/assets/pages/Maldives.html">
+
+                    <div class="card-wrapper">
+                      <div class="card-price">From 21000Rs </div>
+
+                      <div class="card-rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star-outline"></ion-icon>
+
+                        <data value="2">(2)</data>
+                      </div>
+                    </div>
+
+                    <h3 class="card-title">
+                      <a href="#">A good traveler has no fixed plans and is not intent on arriving.</a>
+                    </h3>
+
+                    <address class="card-location">Maldives</address>
+
+                  </a>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+
 
       <!-- 
         - #BLOG
       -->
 
-      <section class="section blog">
+      <section class="section blog" id="Blog">
         <div class="container">
 
           <p class="section-subtitle">From The Blog Post</p>
@@ -523,13 +531,13 @@
                       </figure>
 
                       <div>
-                        <a href="#" class="author-name">Dan lamer</a>
+                        <a href="#" class="author-name">Taylor styles</a>
 
-                        <p class="author-title">Admin</p>
+                        <p class="author-title"></p>
                       </div>
                     </div>
 
-                    <time class="publish-time" datetime="10:30">10:30 AM</time>
+                    <time class="publish-time" datetime="10:30">9:00 PM</time>
 
                   </div>
 
@@ -578,13 +586,13 @@
                       </figure>
 
                       <div>
-                        <a href="#" class="author-name">harry styles</a>
+                        <a href="#" class="author-name">Zaeden</a>
 
-                        <p class="author-title">Admin</p>
+                        <p class="author-title"></p>
                       </div>
                     </div>
 
-                    <time class="publish-time" datetime="10:30">10:30 AM</time>
+                    <time class="publish-time" datetime="10:30">07:00 PM</time>
 
                   </div>
 
@@ -633,9 +641,9 @@
                       </figure>
 
                       <div>
-                        <a href="#" class="author-name">Jony bristow</a>
+                        <a href="#" class="author-name">Parv daga</a>
 
-                        <p class="author-title">Admin</p>
+                        <p class="author-title"></p>
                       </div>
                     </div>
 
@@ -676,7 +684,7 @@
     - #FOOTER
   -->
 
-  <footer class="footer" style="background-image: url('./assets/images/footer-bg.png')">
+  <footer class="footer" style="background-image: url('./assets/images/footer-bg.png')" id='ContactUs'>
     <div class="container">
 
       <div class="footer-top">
@@ -688,28 +696,22 @@
           </li>
 
           <li>
-            <a href="#" class="footer-link">Indonesia, Jakarta</a>
+            <a href="/assets/pages/Indonesia.html" class="footer-link">Indonesia, Jakarta</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Maldives, Malé</a>
+            <a href="/assets/pages/Maldives.html" class="footer-link">Maldives, Malé</a>
           </li>
 
+        
           <li>
-            <a href="#" class="footer-link">Australia, Canberra</a>
+            <a href="/assets/pages/Thailand.html" class="footer-link">Thailand, Bangkok</a>
           </li>
 
-          <li>
-            <a href="#" class="footer-link">Thailand, Bangkok</a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">Morocco, Rabat</a>
-          </li>
-
+         
         </ul>
 
-        <ul class="footer-list">
+        <!-- <ul class="footer-list">
 
           <li>
             <p class="footer-list-title">Categories</p>
@@ -735,7 +737,7 @@
             <a href="#" class="footer-link">Food & Drink</a>
           </li>
 
-        </ul>
+        </ul> -->
 
         <ul class="footer-list">
 
@@ -744,54 +746,52 @@
           </li>
 
           <li>
-            <a href="#" class="footer-link">About</a>
+            <a href="#AboutUs" class="footer-link">About</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Contact</a>
+            <a href="#ContactUs" class="footer-link">Contact</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Tours</a>
+            <a href="#Tours" class="footer-link">Tours</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Booking</a>
+            <a href="#Tours" class="footer-link">Booking</a>
           </li>
 
-          <li>
-            <a href="#" class="footer-link">Terms & Conditions</a>
-          </li>
+          
 
         </ul>
+  <!-- 
+          <div class="footer-list">
 
-        <div class="footer-list">
+            <p class="footer-list-title">Get a newsletter</p>
 
-          <p class="footer-list-title">Get a newsletter</p>
+            <p class="newsletter-text">
+              For the latest deals and tips, travel no further than your inbox
+            </p>
 
-          <p class="newsletter-text">
-            For the latest deals and tips, travel no further than your inbox
-          </p>
+            <form action="" class="newsletter-form">
+              <input type="email" name="email" required placeholder="Email address" class="newsletter-input">
 
-          <form action="" class="newsletter-form">
-            <input type="email" name="email" required placeholder="Email address" class="newsletter-input">
+              <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
 
-            <button type="submit" class="btn btn-primary">Subscribe</button>
-          </form>
-
-        </div>
+          </div> -->
 
       </div>
 
       <div class="footer-bottom">
 
-        <a href="#" class="logo">WanderLust</a>
+        <a href="#" class="logo">WanderWaves</a>
 
         <p class="copyright">
-          &copy; 2022 <a href="#" class="copyright-link">codewithsadee</a>. All Rights Reserved
+          &copy; 2022 <a href="#" class="copyright-link"></a>. All Rights Reserved
         </p>
 
-        <ul class="social-list">
+        <!-- <ul class="social-list">
 
           <li>
             <a href="#" class="social-link">
@@ -823,7 +823,7 @@
             </a>
           </li>
 
-        </ul>
+        </ul> -->
 
       </div>
 
